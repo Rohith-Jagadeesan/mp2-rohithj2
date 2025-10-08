@@ -1,0 +1,6 @@
+.wrap { display: grid; gap: 1rem; }
+.filters { display: flex; gap: .5rem; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .75rem; }
+.card { border: 1px solid #eee; border-radius: 12px; border: 2px solid #080808; padding: .5rem; background: #fff; text-align: center; }
+.title { margin-top: .5rem; text-transform: capitalize; font-weight: 700; }
+.img { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: #f8f8f8; border-radius: 8px; }

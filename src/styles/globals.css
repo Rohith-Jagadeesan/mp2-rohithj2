@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: #a0cbde; color: #111; 
+ background-image: url("../assets/pokemon-bg.png");
+ background-size: cover;          /* scales to fill the screen */
+  background-repeat: no-repeat;    /* no tiling */
+  background-attachment: fixed;    /* stays still on scroll */
+  background-position: center;     /* centers the image */
+  min-height: 100vh; 
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+h1 { margin: 0 0 .5rem; font-size: 1.8rem; }
+h2 { margin: 1rem 0 .5rem; font-size: 1.25rem; }

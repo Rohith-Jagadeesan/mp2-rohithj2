@@ -1,0 +1,9 @@
+.wrap { display: grid; gap: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem; }
+.card { border: 2px solid #080808; border-radius: 12px; padding: .75rem; background: #fff; }
+.title { font-weight: 700; margin: .25rem 0 .5rem; text-transform: capitalize; }
+.row { display: flex; gap: .5rem; align-items: center; justify-content: space-between; }
+.thumb { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: #f8f8f8; border-radius: 8px; }
+.controls { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+.search { padding: .5rem .75rem; border: 2px solid #080808; border-radius: 8px; min-width: 260px; }
+.badge { font-size: .85rem; padding: .1rem .4rem; border-radius: 6px; background: #f1f1f1; text-transform: capitalize; }

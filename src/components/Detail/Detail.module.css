@@ -1,0 +1,10 @@
+.wrap { display: grid; gap: 1rem; }
+.header { display: flex; align-items: center; gap: 1rem; }
+.img { width: 260px; max-width: 40vw; aspect-ratio: 1/1; object-fit: contain; background: #f8f8f8; border-radius: 12px; }
+.title { font-size: 1.75rem; font-weight: 800; text-transform: capitalize; }
+.row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+.badge { font-size: .9rem; padding: .2rem .5rem; border-radius: 6px; background: #f1f1f1; text-transform: capitalize; }
+.nav { display: flex; gap: .5rem; }
+.btn { border: 1px solid #ccc; background: #fff; border-radius: 8px; padding: .4rem .7rem; cursor: pointer; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .5rem; }
+.stat { border: 1px solid #eee; border-radius: 8px; padding: .5rem; background: #fff; }

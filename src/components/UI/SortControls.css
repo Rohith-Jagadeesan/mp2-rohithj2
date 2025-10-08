@@ -1,0 +1,20 @@
+.sort-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sort-controls label {
+  font-weight: 500;
+  color: #222;
+}
+
+.sort-controls select {
+  margin-left: 0.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border: 2px solid #0b0303;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
