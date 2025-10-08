@@ -1,5 +1,5 @@
 import { cachedGet } from './axiosClient';
-import { Pokemon, PokemonListItem } from '../types';
+import { PokemonListItem } from '../types';
 
 
 export async function fetchPokemonPage(offset = 0, limit = 100) {

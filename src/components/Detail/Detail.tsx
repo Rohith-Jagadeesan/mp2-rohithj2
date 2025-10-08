@@ -1,6 +1,6 @@
 // src/components/Detail/Detail.tsx
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { fetchPokemon } from '../../api/pokeapi';
 import type { Pokemon } from '../../types';
 import Spinner from '../UI/Spinner';
@@ -19,7 +19,7 @@ export default function Detail() {
   const [data, setData] = useState<Pokemon | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const navigate = useNavigate();
+
 
   // guard StrictMode double effect (dev)
   const did = useRef(false);

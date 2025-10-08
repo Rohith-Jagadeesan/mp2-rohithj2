@@ -1,4 +1,4 @@
-import { Link, NavLink, useRoutes } from 'react-router-dom';
+import { useRoutes } from 'react-router-dom';
 import routes from './routes';
 import styles from './styles/globals.module.css';
 import Navbar from './components/Navbar/Navbar';
